@@ -1,4 +1,2 @@
-import random
-random_number = random.randint(1, 100)
-print("Random number:", random_number)
-
+from random import randint
+print("Random number:", randint(1, 100))
